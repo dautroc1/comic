@@ -46,7 +46,7 @@ const initSlide = genresData.findIndex(
   (genre: any) => genre.id === route.query.type
 );
 if (initSlide === -1 || !comicsData) {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' });
+  var i = 1;
 }
 genres.value = genresData;
 

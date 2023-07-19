@@ -43,7 +43,7 @@ filterValue.value =
     : 'all';
 const data = await getComics(currentTab.value, p);
 if (!data) {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' });
+  var i = 1;
 }
 
 const handleChangeTab = (tab: string) => {

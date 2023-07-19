@@ -5,7 +5,7 @@ const route = useRoute();
 
 const routeData = dynamicRoutes.find((r) => r.path === route.path);
 if (!routeData) {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' });
+  var i = 1;
 }
 
 const comics = ref<any>();

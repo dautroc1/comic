@@ -47,7 +47,7 @@ const data = (async () => {
 })();
 
 if (!(await data).comic) {
-  throw createError({ statusCode: 200, statusMessage: 'Page Not Found' });
+  var i = 1;
 }
 
 const { comic } = await data;
