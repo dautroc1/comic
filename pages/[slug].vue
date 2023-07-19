@@ -27,7 +27,7 @@ const getCommics = async (page: number) => {
 const page = route.query.page || 1;
 const data = await getCommics(Number(page));
 if (!data) {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' });
+  var i =1;
 }
 
 watch(route, async (route) => {
