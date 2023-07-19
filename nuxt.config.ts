@@ -11,6 +11,9 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-simple-robots',
   ],
+  server: {
+    port: 4000 // Customize the port to 4000
+  },
   runtimeConfig: {
     public: {
       baseURL: process.env.BASE_URL,
