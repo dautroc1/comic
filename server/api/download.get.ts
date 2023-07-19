@@ -2,7 +2,7 @@ import PDFDocument from 'pdfkit';
 
 export default defineEventHandler(async (event) => {
   const { chapterId, comicId } = getQuery(event);
-  const { baseURL } = useRuntimeConfig().public;
+  const { baseURL } = "https://comics-api.vercel.app/";
 
   const data: any = await $fetch(`/comics/${comicId}/chapters/${chapterId}`, {
     baseURL,

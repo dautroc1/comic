@@ -1,7 +1,7 @@
 export const useFetchData = async (path: string): Promise<any> => {
   try {
     const config = useRuntimeConfig();
-    const baseURL = config.public.baseURL as string;
+    const baseURL = "https://comics-api.vercel.app/";
     const { data } = await useFetch(path, {
       baseURL,
       method: 'GET',
