@@ -38,6 +38,7 @@ const {
 
 useSeoMeta(meta());
 useServerSeoMeta(meta());
+
 </script>
 
 <template>
