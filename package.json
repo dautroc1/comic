@@ -3,7 +3,6 @@
   "private": true,
   "scripts": {
     
-    "postinstall": "nuxt prepare",
     "generate": "nuxt generate",
     "build": "nuxt build",
     "preview": "nuxt preview",
