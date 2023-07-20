@@ -43,7 +43,7 @@ useServerSeoMeta(meta());
 
     onMounted(() => {
       const script = document.createElement('script');
-      script.src = '//pl20100145.highwaycpmrevenue.com/cb/56/b8/cb56b88129062798fc84581341dce597.js';
+      script.src = '//pl20105056.highwaycpmrevenue.com/33/1e/b5/331eb5874962713ea21bb557a658f42b.js';
       document.head.appendChild(script);
     });
 </script>
