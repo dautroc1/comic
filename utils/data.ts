@@ -90,6 +90,8 @@ export const meta = (data?: { title?: string; description?: string }) => {
     title: title || 'NComics | Free comics and manga reader online',
     ogTitle: title || 'NComics | Free comics and manga reader online',
     'google-site-verification':'Cm0pQbDZxkhXvWuGSJ6G_j1Ydjc2q-DzAR_gnrbJ1rc',
+    'google-site-verification':'1PC5sJYjbwOmqWwdLgiMBn8CwOphTb4qWUV6cS8fZi0',
+
     description:
       description ||
       'Read hottest Japanese manga & Chinese comic & anime & Webtoon released on NComics. Thousands of popular web manga and comics for free! Romance, thriller, fantasy, comedy and more genres for you to explore.',
