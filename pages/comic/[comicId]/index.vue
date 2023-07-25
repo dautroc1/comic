@@ -273,6 +273,7 @@ useServerSeoMeta(
             ref="description"
           >
             {{ comic.description.replace(/NetTruyen/g, 'NComics') }}
+            Để tìm các bộ phim chỉ nhớ nội dung mà không nhớ tên bạn có thể sử dụng thử trang web tìm phim bằng AI (sử dụng công nghệ từ công ty OpenAI) <a href="https://moviesearch.online">moviesearch.online</a>.
           </p>
           <button
             v-if="isTooLongDescription"
