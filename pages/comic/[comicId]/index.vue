@@ -274,7 +274,7 @@ useServerSeoMeta(
           >
             {{ comic.description.replace(/NetTruyen/g, 'NComics') }}
             <br>
-            <span>Để tìm các bộ phim chỉ nhớ nội dung mà không nhớ tên bạn có thể sử dụng thử trang web tìm phim bằng AI (sử dụng công nghệ từ công ty OpenAI)</span> 
+            <span>Để tìm các bộ phim chỉ nhớ nội dung mà không nhớ tên bạn có thể sử dụng thử trang web tìm phim bằng AI (sử dụng công nghệ từ công ty OpenAI) </span> 
             <a href="https://moviesearch.online" style="color: blue; text-decoration: underline;">moviesearch.online</a>.
           </p>
           <button
