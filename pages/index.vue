@@ -39,13 +39,7 @@ const {
 useSeoMeta(meta());
 useServerSeoMeta(meta());
 // Import the script dynamically
-    import { onMounted } from 'vue';
 
-    onMounted(() => {
-      const script = document.createElement('script');
-      script.src = '//pl20105056.highwaycpmrevenue.com/33/1e/b5/331eb5874962713ea21bb557a658f42b.js';
-      document.head.appendChild(script);
-    });
 </script>
 
 <template>
